@@ -17,6 +17,7 @@ def makeOrder(tasks,numberOfTasks):
     p3 = []
     p4 = []
     for i in range(numberOfTasks):
+        print(tasks[i])
         #assign empty processes fast
         if p1End == 0:
             numberOfTaskToMake = findSmallReadyandDue(tasks)
